@@ -10,4 +10,13 @@ class PasswordsController < ApplicationController
       Passgen::generate(length: (rand(13) + 8), symbols: true)
     end
   end
+
+  def digits
+    @passwords = (0..9).map do
+      num_digits = (rand(5)+4)
+      (0..(num_digits - 1)).map do
+        rand(10)
+      end.join('')
+    end
+  end
 end
