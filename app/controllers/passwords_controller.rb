@@ -7,6 +7,12 @@ class PasswordsController < ApplicationController
 
   def chars
     @passwords = (0..9).map do
+      Passgen::generate(length: (rand(13) + 8), symbols: false)
+    end
+  end
+
+  def chars_symbols
+    @passwords = (0..9).map do
       Passgen::generate(length: (rand(13) + 8), symbols: true)
     end
   end
