@@ -2,21 +2,28 @@
 
 .password-type-block {
     float: left;
-    padding-right: 36px;
     border: 1px;
     border-style: solid;
     border-color: #00cc00;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: 4px;
+}
+
+.password-type-block p {
+    font-family: 'Fira Mono', monospace;
+    text-align: center;
+    padding: 5px;
 }
 
 .password-type-block ul {
     list-style-type: none;
+    padding-right: 36px;
 }
 
-li {
+.password-type-block ul li {
     font-family: 'Fira Mono', monospace;
     font-weight: 'medium';
+    margin-bottom: 5px;
 }
 
 body {
