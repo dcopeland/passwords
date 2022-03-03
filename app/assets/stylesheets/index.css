@@ -11,6 +11,7 @@
 
 .password-type-block p {
     font-family: 'Fira Mono', monospace;
+    font-size: 9pt;
     text-align: center;
     padding: 5px;
 }
@@ -22,8 +23,10 @@
 
 .password-type-block ul li {
     font-family: 'Fira Mono', monospace;
+    font-size: 12pt;
     font-weight: 'medium';
     margin-bottom: 5px;
+    height: 12pt;
 }
 
 body {
