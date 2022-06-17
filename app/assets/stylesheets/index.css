@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
+#digits_block {
+    width: 150px;
+}
+
+#chars_block {
+    width: 260px;
+}
+
+#chars_symbols_block {
+    width: 268px;
+}
+
+#words_block {
+    width: 480px;
+}
+
 .password-type-block {
     float: left;
     border: 1px;
@@ -7,6 +23,7 @@
     border-color: #00cc00;
     border-radius: 5px;
     margin: 4px;
+    height: 275px;
 }
 
 .password-type-block p {
