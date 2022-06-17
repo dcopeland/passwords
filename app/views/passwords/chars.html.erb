@@ -1,5 +1,5 @@
 <turbo-frame id="chars">
-    <p>chars / digits</p>
+    <p onClick="reloadFrame(this.parentNode); return false">chars / digits</p>
     <ul>
         <% @passwords.each do |password| %>
             <li><%= password %></li>

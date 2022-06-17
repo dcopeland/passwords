@@ -1,5 +1,5 @@
 <turbo-frame id="words">
-    <p>words</p>
+    <p onClick="reloadFrame(this.parentNode); return false">words</p>
     <ul>
         <% @passphrases.each do |passphrase| %>
             <li><%= passphrase %></li>
