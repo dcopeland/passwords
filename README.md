@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple random password generator for when you need a random string, PIN or password.
 
-Things you may want to cover:
+I wrote this to learn how to work with Turbo in Rails 7.
 
 * Ruby version
+```
+$ rbenv local
+3.0.3
+```
 
-* System dependencies
+* Install dependencies
+bundle install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Start local server
+rails s
